@@ -11,7 +11,7 @@ export default function Home() {
         <div className="flex justify-between items-center">
           <Link
             href="/addtask"
-            className="bg-[salmon] px-4 py-2 my-4 text-lg font-bold rounded-md"
+            className="bg-zinc-600 px-4 py-2 my-4 text-lg font-bold rounded-md"
           >
             Add Task
           </Link>
