@@ -81,7 +81,7 @@ export const TodoItem = () => {
                 onClick={() => handleComplete(task.id)}
                 className="mt-[4px]"
               />
-              <div className="md:w-[240px]">
+              <div className="md:w-[200px]">
                 <h1
                   style={{ opacity: !completed && "30%" }}
                   className="font-bold"
