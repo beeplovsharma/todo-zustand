@@ -42,7 +42,7 @@ export const TodoItem = () => {
   return (
     <>
       {isEdit && (
-        <div className="w-full flex flex-col gap-2 h-full bg-zinc-700 p-6 rounded-md">
+        <div className="w-full flex sm:flex-col gap-2 h-full bg-zinc-700 p-6 rounded-md">
           <input
             type="text"
             name="title"

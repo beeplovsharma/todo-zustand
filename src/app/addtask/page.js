@@ -1,10 +1,10 @@
 "use client";
 import Link from "next/link";
-import React, { useState } from "react";
 import { useTodosStore } from "../store/Todos";
 import { useRouter } from "next/navigation";
+import { useState } from "react";
 
-function page() {
+function Page() {
   const router = useRouter();
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -73,4 +73,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
