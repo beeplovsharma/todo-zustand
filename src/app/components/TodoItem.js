@@ -83,13 +83,13 @@ export const TodoItem = () => {
               />
               <div className="md:w-[200px]">
                 <h1
-                  style={{ opacity: !completed && "30%" }}
+                  style={{ opacity: task.completed && "30%" }}
                   className="font-bold"
                 >
                   {task.title}
                 </h1>
                 <h3
-                  style={{ opacity: !completed && "30%" }}
+                  style={{ opacity: task.completed && "30%" }}
                   className="break-words"
                 >
                   {task.description}
