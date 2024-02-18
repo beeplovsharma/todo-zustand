@@ -81,7 +81,7 @@ export const TodoItem = () => {
                 onClick={() => handleComplete(task.id)}
                 className="mt-[4px]"
               />
-              <div className="md:w-[250px]">
+              <div className="md:w-[240px]">
                 <h1 className="font-bold">{task.title}</h1>
                 <h3 className="break-words">{task.description}</h3>
               </div>
